@@ -1,0 +1,15 @@
+{% extends 'Main.html'%}
+{% block content %}
+<div style="border-top: 20px;">
+    <h2 style="font-family: 'Times New Roman', Times, serif; text-align: center; ">{{title}}</h2>
+</div>
+<div style="text-align: center;">
+    <img src="{{ url }}" width="200" height=300 >
+</div>
+<div style="border-top: 30px;">
+    <p style="font-family: 'Times New Roman', Times, serif; text-align: center;">
+        {{explanation}}
+    </p>
+</div>
+
+{% endblock %}
